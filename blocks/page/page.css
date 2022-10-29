@@ -1,0 +1,14 @@
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 28px 0 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 568px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}

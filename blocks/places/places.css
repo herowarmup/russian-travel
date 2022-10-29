@@ -1,0 +1,17 @@
+.places {
+  font-family: "Inter", "Arial", sans-serif;
+  gap: 80px;
+  display: grid;
+}
+
+@media screen and (max-width: 968px) {
+  .places {
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    gap: 50px;
+  }
+}
