@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: 1184px;
-  max-height: 18px;
   margin: 0 48px;
 }
 
@@ -17,7 +16,6 @@
 @media screen and (max-width: 568px) {
   .footer {
     flex-direction: column;
-    min-height: 310px;
     margin: 0 16px;
   }
 }
